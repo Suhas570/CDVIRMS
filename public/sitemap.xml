@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cvirms.gov.in/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cvirms.gov.in/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="kn" href="https://cvirms.gov.in/?lang=kn" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cvirms.gov.in/?lang=hi" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://cvirms.gov.in/?lang=ta" />
+    <xhtml:link rel="alternate" hreflang="te" href="https://cvirms.gov.in/?lang=te" />
+    <xhtml:link rel="alternate" hreflang="ml" href="https://cvirms.gov.in/?lang=ml" />
+    <xhtml:link rel="alternate" hreflang="mr" href="https://cvirms.gov.in/?lang=mr" />
+  </url>
+  <url>
+    <loc>https://cvirms.gov.in/about</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cvirms.gov.in/features</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://cvirms.gov.in/tutorials</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cvirms.gov.in/news</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cvirms.gov.in/resources</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
