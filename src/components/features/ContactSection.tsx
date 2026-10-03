@@ -100,8 +100,8 @@ export const ContactSection: React.FC = () => {
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                       E-Governance Inquiries
                     </div>
-                    <a href="mailto:support@cvirms.gov.in" style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--primary)' }}>
-                      support@cvirms.gov.in
+                    <a href="mailto:connect@cvirms.co.in" style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--primary)' }}>
+                      connect@cvirms.co.in
                     </a>
                   </div>
                 </div>
@@ -127,12 +127,12 @@ export const ContactSection: React.FC = () => {
                       WhatsApp Automated FAQ Bot
                     </div>
                     <a
-                      href="https://wa.me/919480801000?text=Hi%20CVIRMS%20Helpdesk"
+                      href="https://wa.me/ 9187535990?text=Hi%20CVIRMS%20Helpdesk"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--status-general)' }}
                     >
-                      +91 94808 01000
+                      +91  9187535990
                     </a>
                   </div>
                 </div>

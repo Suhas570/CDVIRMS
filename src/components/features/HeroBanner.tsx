@@ -200,7 +200,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onNavigate, onScrollToVi
             <Building2 size={20} color="var(--primary)" />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '0.95rem' }}>10,000+</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Hotels &amp; PGs Enrolled</div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t('hero.hotels')}</div>
             </div>
           </div>
 
@@ -210,7 +210,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onNavigate, onScrollToVi
             <Users size={20} color="var(--accent)" />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '0.95rem' }}>5,00,000+</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Guest Records Secured</div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t('hero.guestRecords')}</div>
             </div>
           </div>
 
@@ -220,7 +220,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ onNavigate, onScrollToVi
             <Shield size={20} color="var(--status-general)" />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontWeight: 800, color: 'var(--text-primary)', fontSize: '0.95rem' }}>500+</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Police Stations Connected</div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{t('hero.policeStations')}</div>
             </div>
           </div>
         </div>

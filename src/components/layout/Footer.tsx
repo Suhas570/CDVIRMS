@@ -67,18 +67,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     fontWeight: 600,
                   }}
                 >
-                  Govt. of Karnataka
+                  {t('footer.govKarnataka')}
                 </span>
               </div>
             </div>
 
             <p style={{ fontSize: '0.9rem', marginBottom: 18, color: 'var(--text-secondary)' }}>
-              Centralized Visitor Information & Records Management System — A state-of-the-art digital infrastructure safeguarding citizens, guests, and accommodation providers across Karnataka.
+              {t('footer.brandDesc')}
             </p>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--accent)', fontSize: '0.85rem', fontWeight: 600 }}>
               <ShieldCheck size={18} />
-              <span>ISO 27001 Certified & DPDP Compliant</span>
+              <span>{t('footer.iso')}</span>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 letterSpacing: '-0.01em',
               }}
             >
-              Public Navigation
+              {t('footer.navCol')}
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
               <li>
@@ -170,47 +170,47 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 letterSpacing: '-0.01em',
               }}
             >
-              Statutory Resources
+              {t('footer.resourcesCol')}
             </h4>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px' }}>
               <li>
                 <button
                   onClick={() => onNavigate('resources')}
-                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0 }}
+                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0, textAlign: 'left' }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--primary)')}
                   onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
                 >
-                  Karnataka Police Public Safety Act SOP
+                  {t('footer.resource1')}
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('resources')}
-                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0 }}
+                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0, textAlign: 'left' }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--primary)')}
                   onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
                 >
-                  Hotel & PG Compliance Guidelines (2026)
+                  {t('footer.resource2')}
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('resources')}
-                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0 }}
+                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0, textAlign: 'left' }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--primary)')}
                   onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
                 >
-                  Foreign Guest Form C Instructions
+                  {t('footer.resource3')}
                 </button>
               </li>
               <li>
                 <button
                   onClick={() => onNavigate('resources')}
-                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0 }}
+                  style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none', padding: 0, textAlign: 'left' }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--primary)')}
                   onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
                 >
-                  Offline Register Backup Templates
+                  {t('footer.resource4')}
                 </button>
               </li>
               <li>
@@ -228,7 +228,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     marginTop: 6,
                   }}
                 >
-                  <span>Launch Entity Portal</span>
+                  <span>{t('footer.launchEntityPortal')}</span>
                   <ExternalLink size={14} />
                 </a>
               </li>
@@ -246,14 +246,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 letterSpacing: '-0.01em',
               }}
             >
-              Control Room & Helpdesk
+              {t('footer.helpdeskCol')}
             </h4>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
                 <Phone size={16} color="var(--primary)" style={{ marginTop: 3, flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Toll-Free Technical Helpline</div>
+                  <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{t('footer.tollFree')}</div>
                   <a href="tel:18004250000" style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.95rem' }}>
                     1800-425-0000
                   </a>
@@ -263,7 +263,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
                 <Mail size={16} color="var(--primary)" style={{ marginTop: 3, flexShrink: 0 }} />
                 <div>
-                  <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Official Queries</div>
+                  <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{t('footer.officialQueries')}</div>
                   <a href="mailto:support@cvirms.gov.in" style={{ fontWeight: 600, color: 'var(--primary)', fontSize: '0.9rem' }}>
                     support@cvirms.gov.in
                   </a>
@@ -273,14 +273,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
                 <MapPin size={16} color="var(--primary)" style={{ marginTop: 3, flexShrink: 0 }} />
                 <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
-                  Office of the DG & IGP, Nrupathunga Road, Bengaluru, Karnataka 560001
+                  {t('footer.address')}
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Separator Notice (Strict Informational Portal Notice) */}
+        {/* Separator Notice */}
         <div
           style={{
             padding: '16px 20px',
@@ -293,16 +293,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             lineHeight: 1.5,
           }}
         >
-          <strong style={{ color: 'var(--text-primary)' }}>Important Public Notice:</strong> This is a public informational website designed solely to provide regulatory awareness, guidelines, software updates, and statutory resources. Authorized property operators access the secure operational gateway exclusively via{' '}
-          <a
-            href="https://app.cvirms.gov.in"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'underline' }}
-          >
-            https://app.cvirms.gov.in
-          </a>
-          . No administrative credentials or resident records are handled on this public portal.
+          <strong style={{ color: 'var(--text-primary)' }}>{t('footer.notice')}</strong>{' '}
+          {t('footer.noticeText')}
         </div>
 
         {/* Bottom Copyright & Disclaimer */}
@@ -320,16 +312,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           }}
         >
           <div>
-            © {new Date().getFullYear()} CVIRMS. {t('footer.rights')} Designed and hosted in accordance with Government of India Guidelines for Websites (GIGW).
+            © {new Date().getFullYear()} CVIRMS. {t('footer.rights')} {t('footer.gigw')}
           </div>
           <div style={{ display: 'flex', gap: 16 }}>
-            <span>Privacy Policy</span>
+            <span>{t('footer.privacy')}</span>
             <span>•</span>
-            <span>Terms of Use</span>
+            <span>{t('footer.terms')}</span>
             <span>•</span>
-            <span>Accessibility Statement</span>
+            <span>{t('footer.accessibility')}</span>
             <span>•</span>
-            <span>Sitemap</span>
+            <span>{t('footer.sitemap')}</span>
           </div>
         </div>
       </div>

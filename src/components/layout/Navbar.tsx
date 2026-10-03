@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                     textTransform: 'uppercase',
                   }}
                 >
-                  Gov Portal
+                <span>{t('nav.govPortal')}</span>
                 </span>
               </div>
               <div
@@ -124,8 +124,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                   marginTop: 3,
                 }}
               >
-                Karnataka State Police & EDCS
-              </div>
+                {t('nav.subtitle')}</div>
             </div>
           </div>
 
