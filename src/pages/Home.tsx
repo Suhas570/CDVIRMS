@@ -9,7 +9,6 @@ import { HeroBanner } from '../components/features/HeroBanner';
 import { IntroVideo } from '../components/features/IntroVideo';
 import { StatisticsSection } from '../components/features/StatisticsSection';
 import { SecurityCards } from '../components/features/SecurityCards';
-import { NewsFeed } from '../components/features/NewsFeed';
 import { FeatureHighlights } from '../components/features/FeatureHighlights';
 import { KnowledgeCenter } from '../components/features/KnowledgeCenter';
 import { Testimonials } from '../components/features/Testimonials';
@@ -68,9 +67,6 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
 
       {/* 4. Security Feature Cards (Secure Data, Real-time Access, Smart Analytics, Better Governance) */}
       <SecurityCards />
-
-      {/* 5. News Feed (3 latest articles) */}
-      <NewsFeed onNavigate={onNavigate} />
 
       {/* 6. Feature Highlights (6 icon cards) */}
       <FeatureHighlights onNavigate={onNavigate} />

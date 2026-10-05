@@ -64,22 +64,20 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
           >
             <div
               style={{
-                width: 44,
-                height: 44,
+                width: 48,
+                height: 48,
                 borderRadius: '12px',
-                background: 'linear-gradient(135deg, var(--primary-soft) 0%, var(--accent-soft) 100%)',
-                border: '1px solid var(--border-strong)',
+                background: 'transparent',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                boxShadow: 'var(--shadow-sm)',
                 overflow: 'hidden',
                 flexShrink: 0,
               }}
             >
               <img
-                src="/cvirms-logo.jpg"
-                alt="CVIRMS Shield Emblem"
+                src="/cvirms-logo.png"
+                alt="CVIRMS Logo"
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             </div>
@@ -98,21 +96,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
                 }}
               >
                 <span>CVIRMS</span>
-                <span
-                  style={{
-                    fontSize: '0.65rem',
-                    fontWeight: 700,
-                    padding: '2px 6px',
-                    borderRadius: 4,
-                    backgroundColor: 'var(--accent-soft)',
-                    color: 'var(--accent)',
-                    border: '1px solid var(--accent)',
-                    letterSpacing: '0.04em',
-                    textTransform: 'uppercase',
-                  }}
-                >
-                <span>{t('nav.govPortal')}</span>
-                </span>
               </div>
               <div
                 style={{

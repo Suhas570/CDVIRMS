@@ -24,6 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       <div className="container">
         {/* Top 4-Column Grid */}
         <div
+          className="footer-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
@@ -43,7 +44,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               }}
               onClick={() => onNavigate('home')}
             >
-              <img src="/cvirms-logo.jpg" alt="CVIRMS Shield" style={{ width: 38, height: 38, borderRadius: 8, objectFit: 'contain' }} />
+              <img src="/cvirms-logo.png" alt="CVIRMS Logo" style={{ width: 38, height: 38, borderRadius: 8, objectFit: 'contain' }} />
               <div>
                 <span
                   style={{

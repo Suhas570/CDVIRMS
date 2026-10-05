@@ -121,7 +121,7 @@ export const CVIRMSBot: React.FC<CVIRMSBotProps> = ({ onNavigate }) => {
         >
           <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
             <img
-              src="/cvirms-logo.jpg"
+              src="/cvirms-logo.png"
               alt="CVIRMS AI Logo"
               style={{
                 width: 28,
@@ -153,6 +153,7 @@ export const CVIRMSBot: React.FC<CVIRMSBotProps> = ({ onNavigate }) => {
       {/* Expanded Chat Window */}
       {isOpen && (
         <div
+          className="chatbot-window"
           style={{
             width: '380px',
             maxWidth: 'calc(100vw - 32px)',

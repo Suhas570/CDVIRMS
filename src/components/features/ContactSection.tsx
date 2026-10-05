@@ -15,6 +15,7 @@ export const ContactSection: React.FC = () => {
         </div>
 
         <div
+          className="contact-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
