@@ -59,7 +59,7 @@ export const CVIRMSBot: React.FC<CVIRMSBotProps> = ({ onNavigate }) => {
       );
 
       let replyText =
-        "Thank you for contacting the CVIRMS Helpdesk. You can reach our 24/7 technical team at 1800-425-0000 or explore our official resources section.";
+        "Thank you for contacting the CVIRMS Helpdesk. You can reach our 24/7 technical team at 9187535990 or explore our official resources section.";
       let action = undefined;
 
       if (matchedRule) {

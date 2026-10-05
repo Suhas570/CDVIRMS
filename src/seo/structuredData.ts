@@ -17,16 +17,16 @@ export const organizationJsonLd = {
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Office of the DG & IGP, Nrupathunga Road',
+    streetAddress: '5, 1st Main, 10th Cross, Valmiki Nagar, Andrahalli Main Road',
     addressLocality: 'Bengaluru',
     addressRegion: 'Karnataka',
-    postalCode: '560001',
+    postalCode: '560091',
     addressCountry: 'IN',
   },
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+91-1800-425-0000',
+      telephone: '9187535990',
       contactType: 'technical support',
       areaServed: 'IN',
       availableLanguage: ['English', 'Kannada', 'Hindi'],
@@ -135,13 +135,13 @@ export const localBusinessJsonLd = {
   name: 'CVIRMS Helpdesk — Karnataka State Police',
   image: `${BASE_URL}/shield.svg`,
   url: BASE_URL,
-  telephone: '+91-1800-425-0000',
+  telephone: '9187535990',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Nrupathunga Road, Police Bhavan',
+    streetAddress: '5, 1st Main, 10th Cross, Valmiki Nagar, Andrahalli Main Road',
     addressLocality: 'Bengaluru',
     addressRegion: 'Karnataka',
-    postalCode: '560001',
+    postalCode: '560091',
     addressCountry: 'IN',
   },
   openingHoursSpecification: [

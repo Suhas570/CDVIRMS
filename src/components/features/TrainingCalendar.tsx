@@ -164,7 +164,7 @@ export const TrainingCalendar: React.FC = () => {
                 Station officers conduct automated digital check-ins against guest manifests. In case of unexpected server rollouts, emergency dispatch retains hot-standby channels.
               </p>
               <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--accent)' }}>
-                Toll-Free Control Room: 1800-425-0000
+                Toll-Free Control Room: 9187535990
               </div>
             </div>
           </div>

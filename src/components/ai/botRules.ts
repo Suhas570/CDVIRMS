@@ -69,7 +69,7 @@ export const botRules: BotRule[] = [
   {
     keywords: ['contact', 'help', 'support', 'phone', 'email', 'emergency', '112'],
     response:
-      'For immediate police assistance, dial 112. For CVIRMS technical support, call toll-free at 1800-425-0000 or email support@cvirms.gov.in. Our technical cell operates 24/7.',
+      'For immediate police assistance, dial 112. For CVIRMS technical support, call toll-free at 9187535990 or email connect@cvirms.co.in. Our technical cell operates 24/7.',
   },
   {
     keywords: ['tutorial', 'video', 'how to', 'guide', 'train', 'manual'],

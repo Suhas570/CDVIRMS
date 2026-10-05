@@ -254,8 +254,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Phone size={16} color="var(--primary)" style={{ marginTop: 3, flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{t('footer.tollFree')}</div>
-                  <a href="tel:18004250000" style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.95rem' }}>
-                    1800-425-0000
+                  <a href="tel:9187535990" style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.95rem' }}>
+                    9187535990
                   </a>
                 </div>
               </div>
@@ -264,8 +264,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Mail size={16} color="var(--primary)" style={{ marginTop: 3, flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{t('footer.officialQueries')}</div>
-                  <a href="mailto:support@cvirms.gov.in" style={{ fontWeight: 600, color: 'var(--primary)', fontSize: '0.9rem' }}>
-                    support@cvirms.gov.in
+                  <a href="mailto:connect@cvirms.co.in" style={{ fontWeight: 600, color: 'var(--primary)', fontSize: '0.9rem' }}>
+                    connect@cvirms.co.in
                   </a>
                 </div>
               </div>

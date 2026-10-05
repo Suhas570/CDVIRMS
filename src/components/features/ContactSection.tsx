@@ -16,13 +16,16 @@ export const ContactSection: React.FC = () => {
 
         <div
           style={{
-            maxWidth: '840px',
-            margin: '0 auto 40px',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '40px',
+            marginBottom: '40px',
+            alignItems: 'stretch',
           }}
         >
-          {/* Direct Contact Details & WhatsApp */}
+          {/* Left Column: Direct Contact Details & WhatsApp */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-            <div className="card-base" style={{ padding: '32px' }}>
+            <div className="card-base" style={{ padding: '28px', height: '100%' }}>
               <h3 style={{ fontSize: '1.25rem', marginBottom: 20, color: 'var(--text-primary)' }}>
                 Official Contact Points
               </h3>
@@ -71,8 +74,8 @@ export const ContactSection: React.FC = () => {
                     <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
                       Statewide Technical Helpdesk (Toll-Free)
                     </div>
-                    <a href="tel:18004250000" style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--text-primary)' }}>
-                      1800-425-0000
+                    <a href="tel:9187535990" style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--text-primary)' }}>
+                      9187535990
                     </a>
                     <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
                       Mon – Sat: 08:00 AM – 08:00 PM IST
@@ -127,12 +130,12 @@ export const ContactSection: React.FC = () => {
                       WhatsApp Automated FAQ Bot
                     </div>
                     <a
-                      href="https://wa.me/ 9187535990?text=Hi%20CVIRMS%20Helpdesk"
+                      href="https://wa.me/919480801000?text=Hi%20CVIRMS%20Helpdesk"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--status-general)' }}
                     >
-                      +91  9187535990
+                      +91 94808 01000
                     </a>
                   </div>
                 </div>
@@ -158,12 +161,39 @@ export const ContactSection: React.FC = () => {
                       Headquarters & Monitoring Cell
                     </div>
                     <div style={{ fontSize: '0.9rem', color: 'var(--text-primary)', lineHeight: 1.45 }}>
-                      Office of the Director General of Police, 2nd Floor, Technical Wing, Nrupathunga Road, Bengaluru 560001
+                      5, 1st Main, 10th Cross, Valmiki Nagar, Andrahalli Main Road, Bengaluru - 560091
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Right Column: Location Map */}
+          <div className="card-base" style={{ padding: '32px' }}>
+            <iframe
+              src="https://maps.google.com/maps?q=13.009602,77.479597&z=16&output=embed"
+              width="100%"
+              height="500"
+              style={{ border: 0, borderRadius: '12px', display: 'block', maxWidth: '100%' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            <p
+              style={{
+                marginTop: 14,
+                marginBottom: 0,
+                fontSize: '0.9rem',
+                color: 'var(--text-primary)',
+                lineHeight: 1.45,
+                textAlign: 'center',
+              }}
+            >
+              5, 1st Main, 10th Cross, Valmiki Nagar,
+              <br />
+              Andrahalli Main Road, Bengaluru - 560091
+            </p>
           </div>
         </div>
 
