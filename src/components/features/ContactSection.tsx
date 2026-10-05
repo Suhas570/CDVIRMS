@@ -176,7 +176,7 @@ export const ContactSection: React.FC = () => {
               width="100%"
               height="500"
               style={{ border: 0, borderRadius: '12px', display: 'block', maxWidth: '100%' }}
-              allowFullScreen=""
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
